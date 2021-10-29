@@ -36,5 +36,6 @@ namespace t2010a_UWP.Pages
             txtTitle.Text = title;
             txtContent.Text = content;
         }
+
     }
 }

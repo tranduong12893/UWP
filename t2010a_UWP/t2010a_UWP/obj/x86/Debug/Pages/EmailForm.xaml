@@ -20,9 +20,12 @@
             <Button x:ConnectionId='8'              Margin="20,20,150,20" Background="Beige" HorizontalAlignment="Right" Width="100" Content="Send"/>
         </StackPanel>
         <StackPanel Grid.Column="1" Margin="0,100,0,0">
-            <TextBlock x:ConnectionId='2' x:Name="txtEmail" Text="Email" FontSize="20" Margin="10,20,0,0" Width="350" />
-            <TextBlock x:ConnectionId='3' x:Name="txtTitle" Text="Title" FontSize="20" Margin="10,10,0,0" Width="350"/>
-            <TextBlock x:ConnectionId='4' x:Name="txtContent" Text="Content" FontSize="20" Margin="10,10,0,0" MaxLines="1" TextWrapping="Wrap" Width="350"/>
+            <TextBlock Text="Thư đã gửi" HorizontalAlignment="Center" FontSize="30"/>
+            <StackPanel Background="Azure">
+                <TextBlock x:ConnectionId='2' x:Name="txtEmail" Text="Email" FontSize="20" Margin="20,20,0,0" Width="350" HorizontalAlignment="Left" />
+                <TextBlock x:ConnectionId='3' x:Name="txtTitle" Text="Title" FontSize="20" Margin="20,10,0,0" Width="350" HorizontalAlignment="Left"/>
+                <TextBlock x:ConnectionId='4' x:Name="txtContent" Text="Content" FontSize="20" Margin="20,10,0,20" MaxLines="1" TextWrapping="Wrap" Width="350" HorizontalAlignment="Left"/>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Page>
