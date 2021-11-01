@@ -31,10 +31,10 @@ namespace t2010a_UWP.Pages
             var email = inputEmail.Text;
             var title = inputTitle.Text;
             var content = inputContent.Text;
-
-            txtEmail.Text = email;
-            txtTitle.Text = title;
-            txtContent.Text = content;
+             
+            txtEmail.Text = "Mail nhận:" + email;
+            txtTitle.Text = "Tiêu đề:" + title;
+            txtContent.Text = "Nội dung:" + content;
         }
 
     }

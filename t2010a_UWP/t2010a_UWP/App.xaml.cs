@@ -66,7 +66,7 @@ namespace t2010a_UWP
                     // When the navigation stack isn't restored navigate to the first page,
                     // configuring the new page by passing required information as a navigation
                     // parameter
-                    rootFrame.Navigate(typeof(Pages.EmailForm), e.Arguments);
+                    rootFrame.Navigate(typeof(Lab_s2.Layout), e.Arguments);
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();

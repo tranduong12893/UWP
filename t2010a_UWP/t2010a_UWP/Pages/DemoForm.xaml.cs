@@ -32,9 +32,9 @@ namespace t2010a_UWP.Pages
             var email = inputEmail.Text;
             var phone = inputPhone.Text;
 
-            txtFullname.Text = fullName;
-            txtEmail.Text = email;
-            txtPhone.Text = phone;
+            txtFullname.Text = "Họ và tên:" + fullName;
+            txtEmail.Text = "Email:" + email;
+            txtPhone.Text = "SĐT:" + phone;
         }
     }
 }

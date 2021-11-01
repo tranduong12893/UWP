@@ -8,7 +8,25 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+    <SplitView x:Name="SplView" DisplayMode="CompactOverlay" IsPaneOpen="True" OpenPaneLength="250">
+        <SplitView.Pane>
+            <Button Content="Open" Click="Button_Click" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="0,100,0,0"/>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <ScrollViewer>
+                <Frame x:Name="MainFrame">
+                    <StackPanel>
+                        <TextBlock Text="Hello World!" FontSize="20" HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+                        <Button Click="DemoForm" Content="Go To DemoForm" Margin="691,225,0,0" VerticalAlignment="Top"/>
+                        <Rectangle Fill="Green" Width="400" Height="500" Margin="20"/>
+                        <Rectangle Fill="Green" Width="400" Height="500" Margin="20"/>
+                        <Rectangle Fill="Green" Width="400" Height="500" Margin="20"/>
+                        <Rectangle Fill="Green" Width="400" Height="500" Margin="20"/>
+                        <Rectangle Fill="Green" Width="400" Height="500" Margin="20"/>
+                    </StackPanel>
+                </Frame>
+            </ScrollViewer>
+        </SplitView.Content>
+    </SplitView>
 </Page>

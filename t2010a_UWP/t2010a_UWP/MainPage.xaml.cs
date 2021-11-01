@@ -13,7 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace t2010a_UWP
 {
@@ -25,6 +25,16 @@ namespace t2010a_UWP
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            SplView.IsPaneOpen = !SplView.IsPaneOpen;
+        }
+
+        private void DemoForm(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(typeof(Pages.DemoForm)); // Chuyển nội dung của Frame sang DemoForm
         }
     }
 }

@@ -14,6 +14,7 @@
             <ColumnDefinition Width="1*"/>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0" Margin="0,100,0,0">
+            <TextBlock Text="Gửi thư mới" FontSize="30" HorizontalAlignment="Center"/>
             <TextBox x:Name="inputEmail" Margin="20" HorizontalAlignment="Center" Width="350" Height="40" Text="" TextWrapping="Wrap" PlaceholderText="Email nhận"/>
             <TextBox x:Name="inputTitle" Margin="20" HorizontalAlignment="Center" Width="350" Height="40" Text="" TextWrapping="Wrap" PlaceholderText="Tiêu đề"/>
             <TextBox x:Name="inputContent" Margin="20" HorizontalAlignment="Center" Width="350" Height="120" Text="" TextWrapping="Wrap" PlaceholderText="Nội dung"/>

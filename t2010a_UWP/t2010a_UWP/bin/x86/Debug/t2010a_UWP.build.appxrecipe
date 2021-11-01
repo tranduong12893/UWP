@@ -70,8 +70,17 @@
     <AppxPackagedFile Include="D:\ky-3\UWP\t2010a_UWP\t2010a_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\t2010a_UWP\t2010a_UWP\bin\x86\Debug\Lab_s2\lab2.xbf">
+      <PackagePath>Lab_s2\lab2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\t2010a_UWP\t2010a_UWP\bin\x86\Debug\Layout.xbf">
+      <PackagePath>Layout.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\t2010a_UWP\t2010a_UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\t2010a_UWP\t2010a_UWP\bin\x86\Debug\Pages\CustomerForm.xbf">
+      <PackagePath>Pages\CustomerForm.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\t2010a_UWP\t2010a_UWP\bin\x86\Debug\Pages\Demo.xbf">
       <PackagePath>Pages\Demo.xbf</PackagePath>
@@ -81,6 +90,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\t2010a_UWP\t2010a_UWP\bin\x86\Debug\Pages\EmailForm.xbf">
       <PackagePath>Pages\EmailForm.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\t2010a_UWP\t2010a_UWP\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
