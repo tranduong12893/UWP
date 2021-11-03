@@ -3,12 +3,45 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Fried_Chicken"
+    xmlns:models="using:Fried_Chicken.Models"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+    <SplitView x:Name="SP" OpenPaneLength="180" DisplayMode="CompactInline" IsPaneOpen="True">
+        <SplitView.Pane>
+            <RelativePanel Background="#292728">
+                <FontIcon Tapped="IconClick_Tapped" x:Name="IconClick" FontFamily="Segoe MDL2 Assets" Margin="12,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <ListView x:Name="Menu" Margin="0,70,0,0" RelativePanel.Below="IconClick">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:MenuItem">
+                            <ListViewItem Tapped="ListViewItem_Tapped">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="5"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Grid Grid.Column="0" Background="#AB0A34" Margin="-20,10,10,0" Height="50"/>
+                                    <Image Grid.Column="1" Margin="0,8,0,0" Width="20" VerticalAlignment="Center">
+                                        <Image.Source>
+                                            <BitmapImage UriSource="{x:Bind Icon.UriSource}"/>
+                                        </Image.Source>
+                                    </Image>
+                                    <TextBlock Grid.Column="2" Text="{x:Bind Name}" Margin="20,8,0,0" FontSize="20" Foreground="White" VerticalAlignment="Center"/>
+                                </Grid>
+                            </ListViewItem>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xF142;" Foreground="White" HorizontalAlignment="Left" Margin="10,740,0,0"/>
+            </RelativePanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+            <ScrollViewer Margin="10">
+                <Frame x:Name="MainFrame" />
+            </ScrollViewer>
+        </SplitView.Content>
+    </SplitView>
 </Page>

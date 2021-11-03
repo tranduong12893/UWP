@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="684bb91f-c806-4b00-9f56-0a515f43abc2"
+    Name="33b2344e-a595-40f5-8d66-6f3684fd18cc"
     Publisher="CN=Tran Duong"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="684bb91f-c806-4b00-9f56-0a515f43abc2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="33b2344e-a595-40f5-8d66-6f3684fd18cc" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Fried_Chicken</DisplayName>
