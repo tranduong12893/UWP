@@ -9,7 +9,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <SplitView x:ConnectionId='2' x:Name="SP" OpenPaneLength="180" DisplayMode="CompactInline" IsPaneOpen="True">
+    <SplitView x:ConnectionId='2' x:Name="SP" OpenPaneLength="200" DisplayMode="CompactInline" IsPaneOpen="True">
         <SplitView.Pane>
             <RelativePanel Background="#292728">
                 <FontIcon x:ConnectionId='3'                           x:Name="IconClick" FontFamily="Segoe MDL2 Assets" Margin="12,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
@@ -21,26 +21,27 @@
                                     <Grid.ColumnDefinitions>
                                         <ColumnDefinition Width="5"/>
                                         <ColumnDefinition Width="Auto"/>
-                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="5*"/>
                                     </Grid.ColumnDefinitions>
                                     <Grid Grid.Column="0" Background="#AB0A34" Margin="-20,10,10,0" Height="50"/>
-                                    <Image Grid.Column="1" Margin="0,8,0,0" Width="20" VerticalAlignment="Center">
+                                    <Image Grid.Column="1" Margin="0,10,0,0" Width="30" VerticalAlignment="Center">
                                         <Image.Source>
                                             <BitmapImage x:ConnectionId='8'                                    />
                                         </Image.Source>
                                     </Image>
-                                    <TextBlock x:ConnectionId='7' Grid.Column="2"                      Margin="20,8,0,0" FontSize="20" Foreground="White" VerticalAlignment="Center"/>
+                                    <TextBlock x:ConnectionId='7' Grid.Column="2"                      Margin="20,10,0,0" FontSize="20" Foreground="White" VerticalAlignment="Center" />
                                 </Grid>
                             </ListViewItem>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-                <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xF142;"/>
+                <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xF142;" Foreground="White" HorizontalAlignment="Left" Margin="10,740,0,0"/>
             </RelativePanel>
         </SplitView.Pane>
         <SplitView.Content>
-            <ScrollViewer Margin="10">
-                <Frame x:ConnectionId='9' x:Name="MainFrame" />
+            <ScrollViewer Margin="0" Background="#F1F1F1">
+                <Frame x:ConnectionId='9' x:Name="MainFrame" >
+                </Frame>
             </ScrollViewer>
         </SplitView.Content>
     </SplitView>

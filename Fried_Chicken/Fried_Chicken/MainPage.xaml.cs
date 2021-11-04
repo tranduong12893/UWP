@@ -1,18 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
+﻿using Fried_Chicken.Models;
+using System;
 using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
-using Fried_Chicken.Models;
 using Windows.UI.Xaml.Media.Imaging;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -29,7 +18,7 @@ namespace Fried_Chicken
             this.InitializeComponent();
             MainFrame.Navigate(typeof(Pages.Home));
             var item1 = new MenuItem() { Name = "Home", MenuPage = "homepage", Icon = new BitmapImage(new Uri("ms-appx:///Assets/icons8-windows-client-96.png")) };
-            var item2 = new MenuItem() { Name = "Eat-In", MenuPage = "eat-in", Icon = new BitmapImage(new Uri("ms-appx:///Assets/knife and fork.jpg")) };
+            var item2 = new MenuItem() { Name = "Eat-In", MenuPage = "eat-in", Icon = new BitmapImage(new Uri("ms-appx:///Assets/noun_spoon and fork_4000217.png")) };
             var item3 = new MenuItem() { Name = "Collection", MenuPage = "customer", Icon = new BitmapImage(new Uri("ms-appx:///Assets/icons8-list-128.png")) };
             var item4 = new MenuItem() { Name = "Delivery", MenuPage = "delivery", Icon = new BitmapImage(new Uri("ms-appx:///Assets/delivery.png")) };
             var item5 = new MenuItem() { Name = "Take-Away", MenuPage = "take-away", Icon = new BitmapImage(new Uri("ms-appx:///Assets/pizza-slice.png")) };

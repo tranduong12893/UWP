@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-11-03T10:12:37.463</Modified>
+      <Modified>2021-11-04T12:50:30.424</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Fried_Chicken.exe">
       <PackagePath>entrypoint\Fried_Chicken.exe</PackagePath>
-      <Modified>2021-11-03T10:12:37.107</Modified>
+      <Modified>2021-11-04T12:50:30.090</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -50,6 +50,14 @@
       <PackagePath>Assets\delivery.png</PackagePath>
       <Modified>2021-11-03T09:22:43.513</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\download.png">
+      <PackagePath>Assets\download.png</PackagePath>
+      <Modified>2021-11-04T11:07:15.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\facebook-icon-2.png">
+      <PackagePath>Assets\facebook-icon-2.png</PackagePath>
+      <Modified>2021-11-04T11:07:15.573</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\icons8-list-128.png">
       <PackagePath>Assets\icons8-list-128.png</PackagePath>
       <Modified>2021-11-03T09:22:43.515</Modified>
@@ -57,6 +65,10 @@
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\icons8-windows-client-96.png">
       <PackagePath>Assets\icons8-windows-client-96.png</PackagePath>
       <Modified>2021-11-03T09:22:43.519</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\images.png">
+      <PackagePath>Assets\images.png</PackagePath>
+      <Modified>2021-11-04T11:07:14.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\information.png">
       <PackagePath>Assets\information.png</PackagePath>
@@ -66,9 +78,25 @@
       <PackagePath>Assets\LogoJB_New-02.png</PackagePath>
       <Modified>2021-11-03T09:22:43.521</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\meatballs.png">
+      <PackagePath>Assets\meatballs.png</PackagePath>
+      <Modified>2021-11-03T11:46:02.999</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\money.png">
       <PackagePath>Assets\money.png</PackagePath>
       <Modified>2021-11-03T09:22:43.511</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_cutlery_4362787.png">
+      <PackagePath>Assets\noun_cutlery_4362787.png</PackagePath>
+      <Modified>2021-11-03T11:44:36.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_spoon and fork_2494196.png">
+      <PackagePath>Assets\noun_spoon and fork_2494196.png</PackagePath>
+      <Modified>2021-11-03T11:44:36.703</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_spoon and fork_4000217.png">
+      <PackagePath>Assets\noun_spoon and fork_4000217.png</PackagePath>
+      <Modified>2021-11-03T11:48:52.925</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\pizza-slice.png">
       <PackagePath>Assets\pizza-slice.png</PackagePath>
@@ -122,43 +150,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Fried_Chicken.xr.xml">
       <PackagePath>Fried_Chicken.xr.xml</PackagePath>
-      <Modified>2021-11-03T10:09:23.210</Modified>
+      <Modified>2021-11-04T12:45:09.956</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-11-03T10:05:13.515</Modified>
+      <Modified>2021-11-04T12:30:28.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-11-03T10:12:37.045</Modified>
+      <Modified>2021-11-04T12:30:28.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Collection.xbf">
       <PackagePath>Pages\Collection.xbf</PackagePath>
-      <Modified>2021-11-03T10:05:13.515</Modified>
+      <Modified>2021-11-04T12:30:28.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Customers.xbf">
       <PackagePath>Pages\Customers.xbf</PackagePath>
-      <Modified>2021-11-03T10:05:13.515</Modified>
+      <Modified>2021-11-04T12:30:28.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Delivery.xbf">
       <PackagePath>Pages\Delivery.xbf</PackagePath>
-      <Modified>2021-11-03T10:05:13.515</Modified>
+      <Modified>2021-11-04T12:30:28.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Eat-In.xbf">
       <PackagePath>Pages\Eat-In.xbf</PackagePath>
-      <Modified>2021-11-03T10:05:13.515</Modified>
+      <Modified>2021-11-04T12:30:28.093</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2021-11-03T10:05:13.515</Modified>
+      <Modified>2021-11-04T12:50:30.035</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Payment.xbf">
       <PackagePath>Pages\Payment.xbf</PackagePath>
-      <Modified>2021-11-03T10:05:13.515</Modified>
+      <Modified>2021-11-04T12:30:28.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Take-Away.xbf">
       <PackagePath>Pages\Take-Away.xbf</PackagePath>
-      <Modified>2021-11-03T10:05:13.515</Modified>
+      <Modified>2021-11-04T12:30:28.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -166,11 +194,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-11-03T09:36:18.091</Modified>
+      <Modified>2021-11-04T12:15:11.403</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Core\Fried_Chicken.exe">
       <PackagePath>Fried_Chicken.exe</PackagePath>
-      <Modified>2021-11-03T10:12:37.460</Modified>
+      <Modified>2021-11-04T12:50:30.420</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

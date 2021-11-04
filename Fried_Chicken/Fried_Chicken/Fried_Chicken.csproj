@@ -123,6 +123,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="Models\Product.cs" />
     <Compile Include="Pages\Collection.xaml.cs">
       <DependentUpon>Collection.xaml</DependentUpon>
     </Compile>
@@ -152,14 +153,24 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\burger.jpg" />
+    <Content Include="Assets\cake.jpg" />
     <Content Include="Assets\delivery.png" />
+    <Content Include="Assets\download.png" />
+    <Content Include="Assets\facebook-icon-2.png" />
     <Content Include="Assets\icons8-list-128.png" />
     <Content Include="Assets\icons8-windows-client-96.png" />
+    <Content Include="Assets\images.png" />
     <Content Include="Assets\information.png" />
     <Content Include="Assets\knife and fork.jpg" />
     <Content Include="Assets\LogoJB_New-02.png" />
+    <Content Include="Assets\meatballs.png" />
     <Content Include="Assets\money.png" />
+    <Content Include="Assets\noun_cutlery_4362787.png" />
+    <Content Include="Assets\noun_spoon and fork_2494196.png" />
+    <Content Include="Assets\noun_spoon and fork_4000217.png" />
     <Content Include="Assets\pizza-slice.png" />
+    <Content Include="Assets\pizza.jpg" />
     <Content Include="Assets\question.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />

@@ -37,11 +37,20 @@
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\delivery.png">
       <PackagePath>Assets\delivery.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\download.png">
+      <PackagePath>Assets\download.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\facebook-icon-2.png">
+      <PackagePath>Assets\facebook-icon-2.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\icons8-list-128.png">
       <PackagePath>Assets\icons8-list-128.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\icons8-windows-client-96.png">
       <PackagePath>Assets\icons8-windows-client-96.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\images.png">
+      <PackagePath>Assets\images.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\information.png">
       <PackagePath>Assets\information.png</PackagePath>
@@ -49,8 +58,20 @@
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\LogoJB_New-02.png">
       <PackagePath>Assets\LogoJB_New-02.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\meatballs.png">
+      <PackagePath>Assets\meatballs.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\money.png">
       <PackagePath>Assets\money.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_cutlery_4362787.png">
+      <PackagePath>Assets\noun_cutlery_4362787.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_spoon and fork_2494196.png">
+      <PackagePath>Assets\noun_spoon and fork_2494196.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_spoon and fork_4000217.png">
+      <PackagePath>Assets\noun_spoon and fork_4000217.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\pizza-slice.png">
       <PackagePath>Assets\pizza-slice.png</PackagePath>
