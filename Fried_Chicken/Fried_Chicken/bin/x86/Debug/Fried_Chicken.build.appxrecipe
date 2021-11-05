@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>33b2344e-a595-40f5-8d66-6f3684fd18cc</PackageIdentityName>
     <PackageIdentityPublisher>CN=Tran Duong</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Fried_Chicken.exe">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Fried_Chicken.exe">
       <PackagePath>entrypoint\Fried_Chicken.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
@@ -34,121 +34,133 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.19041.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\delivery.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\burger.jpg">
+      <PackagePath>Assets\burger.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\burger1.jpg">
+      <PackagePath>Assets\burger1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\cake.jpg">
+      <PackagePath>Assets\cake.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\knife and fork.jpg">
+      <PackagePath>Assets\knife and fork.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\pizza.jpg">
+      <PackagePath>Assets\pizza.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\delivery.png">
       <PackagePath>Assets\delivery.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\download.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\download.png">
       <PackagePath>Assets\download.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\facebook-icon-2.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\facebook-icon-2.png">
       <PackagePath>Assets\facebook-icon-2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\icons8-list-128.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\icons8-list-128.png">
       <PackagePath>Assets\icons8-list-128.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\icons8-windows-client-96.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\icons8-windows-client-96.png">
       <PackagePath>Assets\icons8-windows-client-96.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\images.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\images.png">
       <PackagePath>Assets\images.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\information.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\information.png">
       <PackagePath>Assets\information.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\LogoJB_New-02.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\LogoJB_New-02.png">
       <PackagePath>Assets\LogoJB_New-02.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\meatballs.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\meatballs.png">
       <PackagePath>Assets\meatballs.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\money.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\money.png">
       <PackagePath>Assets\money.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_cutlery_4362787.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_cutlery_4362787.png">
       <PackagePath>Assets\noun_cutlery_4362787.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_spoon and fork_2494196.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_spoon and fork_2494196.png">
       <PackagePath>Assets\noun_spoon and fork_2494196.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_spoon and fork_4000217.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\noun_spoon and fork_4000217.png">
       <PackagePath>Assets\noun_spoon and fork_4000217.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\pizza-slice.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\pizza-slice.png">
       <PackagePath>Assets\pizza-slice.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\question.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\question.png">
       <PackagePath>Assets\question.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Assets\knife and fork.jpg">
-      <PackagePath>Assets\knife and fork.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Fried_Chicken.xr.xml">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Fried_Chicken.xr.xml">
       <PackagePath>Fried_Chicken.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Collection.xbf">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Collection.xbf">
       <PackagePath>Pages\Collection.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Customers.xbf">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Customers.xbf">
       <PackagePath>Pages\Customers.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Delivery.xbf">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Delivery.xbf">
       <PackagePath>Pages\Delivery.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Eat-In.xbf">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Eat-In.xbf">
       <PackagePath>Pages\Eat-In.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Home.xbf">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Payment.xbf">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Payment.xbf">
       <PackagePath>Pages\Payment.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Take-Away.xbf">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Take-Away.xbf">
       <PackagePath>Pages\Take-Away.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\ky-3\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Core\Fried_Chicken.exe">
+    <AppxPackagedFile Include="D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Core\Fried_Chicken.exe">
       <PackagePath>Fried_Chicken.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

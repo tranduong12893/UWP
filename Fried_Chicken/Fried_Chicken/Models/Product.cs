@@ -7,6 +7,7 @@ using Windows.UI.Xaml.Media.Imaging;
 
 namespace Fried_Chicken.Models
 {
+
     class Product
     {
         public string ProGroup { set; get; }

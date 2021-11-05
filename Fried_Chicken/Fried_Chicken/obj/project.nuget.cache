@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v8SMp4BxKLqNg9wBEVu1QSt+wx61hNYKO4PeXJxt2wHgTRSnViFfVLYBF3yHRZgn9rvmYlF6ZZdq0WWPK6JdJw==",
+  "dgSpecHash": "/vx+X5K6DRVBvRph9QXG2f5gIqc2EhYi+9xx7lX77pbQgDkyL8OZYgw3JSkJUZcbCtXs+7cJS//vg2TTUtoHQw==",
   "success": true,
-  "projectFilePath": "D:\\ky-3\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj",
+  "projectFilePath": "D:\\ky-3\\github\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

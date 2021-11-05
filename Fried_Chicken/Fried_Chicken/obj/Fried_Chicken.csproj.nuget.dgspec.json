@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ky-3\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj": {}
+    "D:\\ky-3\\github\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj": {}
   },
   "projects": {
-    "D:\\ky-3\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj": {
+    "D:\\ky-3\\github\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ky-3\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj",
+        "projectUniqueName": "D:\\ky-3\\github\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj",
         "projectName": "Fried_Chicken",
-        "projectPath": "D:\\ky-3\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj",
+        "projectPath": "D:\\ky-3\\github\\UWP\\Fried_Chicken\\Fried_Chicken\\Fried_Chicken.csproj",
         "packagesPath": "C:\\Users\\Tran Duong\\.nuget\\packages\\",
-        "outputPath": "D:\\ky-3\\UWP\\Fried_Chicken\\Fried_Chicken\\obj\\",
+        "outputPath": "D:\\ky-3\\github\\UWP\\Fried_Chicken\\Fried_Chicken\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

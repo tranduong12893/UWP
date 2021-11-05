@@ -59,24 +59,24 @@
             </Grid>
 
         </Grid>
-        <GridView Grid.Row="1" x:Name="Products">
+        <GridView x:ConnectionId='2' Grid.Row="1" x:Name="Products">
             <GridView.ItemTemplate>
-                <DataTemplate x:DataType="model:Product">
-                    <StackPanel Height="350" Width="250" Margin="150,70,0,0" Background="#E2E2E2" >
-                        <TextBlock Text="{x:Bind ProGroup }" FontSize="30" Margin="15, 10, 0, 0" FontFamily="Arial" FontWeight="Bold"/>
+                <DataTemplate                           >
+                    <StackPanel x:ConnectionId='4' Height="350" Width="250" Margin="150,70,0,0" Background="#E2E2E2" >
+                        <TextBlock x:ConnectionId='5'                           FontSize="30" Margin="15, 10, 0, 0" FontFamily="Arial" FontWeight="Bold"/>
                         <Image Grid.Column="1" Margin="5,10,5,0"  VerticalAlignment="Center" Height="150" Width="340" >
                               <Image.Source>
-                                     <BitmapImage UriSource="{x:Bind ProImg.UriSource}"/>
+                                     <BitmapImage x:ConnectionId='8'                                      />
                               </Image.Source>
                         </Image>
-                        <TextBlock Text="{x:Bind ProContent}" Margin="-10,10,5,0" Width="190" LineStackingStrategy="MaxHeight" TextWrapping="Wrap" MaxLines="2" LineHeight="10"/>
-                        <Grid Margin="5,15,5,0" VerticalAlignment="Bottom">
+                        <TextBlock x:ConnectionId='6'                            Margin="-10,10,5,0" Width="190" LineStackingStrategy="MaxHeight" TextWrapping="Wrap" MaxLines="2" LineHeight="10"/>
+                        <Grid Margin="5,10,5,0" VerticalAlignment="Bottom">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1*"/>  
                                 <ColumnDefinition Width="2*"/>
                             </Grid.ColumnDefinitions>
-                            <TextBlock Grid.Column="0" Text="{x:Bind ProPrice}" Foreground="#1E26A2" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            <Button Content="Read More" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />
+                            <TextBlock x:ConnectionId='7' Grid.Column="0"                          Foreground="#1E26A2" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center"></TextBlock>
+                            <Button Content="Read More" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C"/>
                         </Grid>
                     </StackPanel>
                 </DataTemplate>
@@ -90,3 +90,4 @@
 
     </Grid>
 </Page>
+
