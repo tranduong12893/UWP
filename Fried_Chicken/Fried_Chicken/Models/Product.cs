@@ -8,13 +8,13 @@ using Windows.UI.Xaml.Media.Imaging;
 namespace Fried_Chicken.Models
 {
 
-    class Product
+    public class Product
     {
-        public string ProGroup { set; get; }
+        public int ProID { set; get; }
         public string ProName { set; get; }
         public BitmapImage ProImg { set; get; }
         public string ProDetail { set; get; }
-        public string ProContent { set; get; }
         public int ProPrice { set; get; }
     }
+
 }

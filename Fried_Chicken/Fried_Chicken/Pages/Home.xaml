@@ -63,13 +63,13 @@
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="model:Product">
                     <StackPanel Height="350" Width="250" Margin="150,70,0,0" Background="#E2E2E2" >
-                        <TextBlock Text="{x:Bind ProGroup }" FontSize="30" Margin="15, 10, 0, 0" FontFamily="Arial" FontWeight="Bold"/>
+                        <TextBlock Text="{x:Bind ProName }" FontSize="30" Margin="15, 10, 0, 0" FontFamily="Arial" FontWeight="Bold"/>
                         <Image Grid.Column="1" Margin="5,10,5,0"  VerticalAlignment="Center" Height="150" Width="340" >
                               <Image.Source>
                                      <BitmapImage UriSource="{x:Bind ProImg.UriSource}"/>
                               </Image.Source>
                         </Image>
-                        <TextBlock Text="{x:Bind ProContent}" Margin="-10,10,5,0" Width="190" LineStackingStrategy="MaxHeight" TextWrapping="Wrap" MaxLines="2" LineHeight="10"/>
+                        <TextBlock Text="{x:Bind ProDetail}" Margin="-10,10,5,0" Width="190" LineStackingStrategy="MaxHeight" TextWrapping="Wrap" MaxLines="2" LineHeight="10"/>
                         <Grid Margin="5,15,5,0" VerticalAlignment="Bottom">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="1*"/>  

@@ -2,6 +2,10 @@
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 using Fried_Chicken.Models;
+using Fried_Chicken.Services;
+using Fried_Chicken.Models.Entity;
+using Windows.UI.Xaml.Input;
+using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -15,13 +19,27 @@ namespace Fried_Chicken.Pages
         public Home()
         {
             this.InitializeComponent();
-            var p1 = new Product() { ProGroup="Burger", ProName = "Cheeseburger",  ProImg = new BitmapImage(new Uri("ms-appx:///Assets/burger1.jpg")), ProDetail="", ProContent= "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, est, corporis quis omnis consequuntur nobis nam porro illo optio consequatur repudiandae, in amet consectetur voluptatem recusandae quaerat expedita accusamus explicabo.", ProPrice = 13 };
-            var p2 = new Product() { ProGroup = "Cake", ProName = "Rainbow cake", ProImg = new BitmapImage(new Uri("ms-appx:///Assets/cake.jpg")), ProDetail = "", ProContent = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, est, corporis quis omnis consequuntur nobis nam porro illo optio consequatur repudiandae, in amet consectetur voluptatem recusandae quaerat expedita accusamus explicabo.", ProPrice = 23 };
-            var p3 = new Product() { ProGroup = "Pizza", ProName = "Cheese sausage pizza", ProImg = new BitmapImage(new Uri("ms-appx:///Assets/pizza.jpg")), ProDetail = "", ProContent = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, est, corporis quis omnis consequuntur nobis nam porro illo optio consequatur repudiandae, in amet consectetur voluptatem recusandae quaerat expedita accusamus explicabo.", ProPrice = 45 };
-            Products.Items.Add(p1);
-            Products.Items.Add(p2);
-            Products.Items.Add(p3);
         }
-        
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            Food food = e.Parameter as Food;
+            // Da co category -> lay api du lieu ve
+            RenderFoods();
+        }
+
+        public async void RenderFoods()
+        {
+            // chi viec goi object cuar ApiService vao dung
+            ApiService apiService = new ApiService();
+            FoodsOfCategory food = await apiService.GetTodaySpecial();
+            if (food != null)
+            {
+                foreach (var c in food.foods)
+                {
+                    Products.Items.Add(c);
+                }
+            }
+        }
     }
 }
