@@ -12,7 +12,7 @@ namespace Fried_Chicken.Models
     {
         public int ProID { set; get; }
         public string ProName { set; get; }
-        public BitmapImage ProImg { set; get; }
+        public string ProImg { set; get; }
         public string ProDetail { set; get; }
         public int ProPrice { set; get; }
     }

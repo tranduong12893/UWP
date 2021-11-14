@@ -123,6 +123,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Background" />
+      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
       <RootProperty Name="Template" />
@@ -131,6 +132,7 @@
       <RootProperty Name="MaximumRowsOrColumns" />
       <RootProperty Name="Orientation" />
     </RootType>
+    <RootType FullName="Fried_Chicken.Pages.FoodDetail" />
     <RootType FullName="Fried_Chicken.Pages.Home" />
     <RootType FullName="Fried_Chicken.Pages.Payment" />
     <RootType FullName="Fried_Chicken.Pages.Take_Away" />

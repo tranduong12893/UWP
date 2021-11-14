@@ -241,3 +241,8 @@ D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Categories.xa
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Categories.xbf
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Categories.xbf
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Newtonsoft.Json.dll
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\FoodDetail.g.i.cs
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\FoodDetail.g.cs
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\FoodDetail.xaml
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\FoodDetail.xbf
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\FoodDetail.xbf

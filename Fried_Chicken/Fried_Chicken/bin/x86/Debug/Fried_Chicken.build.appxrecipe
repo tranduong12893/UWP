@@ -151,6 +151,9 @@
     <AppxPackagedFile Include="D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Eat-In.xbf">
       <PackagePath>Pages\Eat-In.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\FoodDetail.xbf">
+      <PackagePath>Pages\FoodDetail.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
     </AppxPackagedFile>

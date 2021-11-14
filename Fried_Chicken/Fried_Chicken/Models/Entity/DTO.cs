@@ -40,4 +40,14 @@ namespace Fried_Chicken.Models.Entity
             public string message { get; set; }
             public FoodsOfCategory data { get; set; }
         }
+        public class todaySpecial
+        {
+            public string message { get; set; }
+            public List<Food> data { get; set; }
+        }
+        public class FoodList
+        {
+            public string message { get; set; }
+            public Food data { get; set; }
+        }
 }

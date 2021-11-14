@@ -14,28 +14,12 @@ namespace Fried_Chicken.Pages
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Home : Page
+    public sealed partial class FoodDetail : Page
     {
-        public Home()
+        public FoodDetail()
         {
-            this.InitializeComponent(); 
-            RenderSpecial();
+            this.InitializeComponent();
         }
-
-        public async void RenderSpecial()
-        {
-            // chi viec goi object cuar ApiService vao dung
-            ApiService apiService = new ApiService();
-            todaySpecial food = await apiService.GetTodaySpecial();
-            if (food != null)
-            {
-                foreach (var c in food.data)
-                {
-                    Products.Items.Add(new Product() { ProName = c.name, ProDetail = c.description, ProID = c.id, ProImg = c.image, ProPrice = c.price });
-                }
-            }
-        }
-
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             base.OnNavigatedTo(e);
@@ -51,14 +35,9 @@ namespace Fried_Chicken.Pages
             if (fooddetail != null)
             {
                 var f = fooddetail.data;
-                Products.Items.Add(f);
-
+                    Products.Items.Add(f);
+                
             }
-        }
-
-        private void Button_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-
         }
     }
 }
