@@ -43,20 +43,20 @@ namespace Fried_Chicken.Services
             }
             return null;
         }
-        public async Task<FoodList> FoodDetail(Food food)
-        {
-            HttpClient client = new HttpClient();// lo việc kết nối api và lấy dữ liệu về (shipper)
-            ApiURL uRL = ApiURL.GetInstance();
-            var rs = await client.GetAsync(uRL.GetApiFoodDetail(food.id)); // lấy data từ api về
-            if (rs.StatusCode == HttpStatusCode.OK)
-            {
-                string rsContent = await rs.Content.ReadAsStringAsync();// chuyeenr dữ liệu thành 1 string
-                                                                        // timf cách convert string ở trên thành 1 object Categories
-                FoodList detail = JsonConvert.DeserializeObject<FoodList>(rsContent);
-                return detail;
-            }
-            return null;
-        }
+        //public async Task<FoodList> FoodDetail(Food food)
+        //{
+        //    HttpClient client = new HttpClient();// lo việc kết nối api và lấy dữ liệu về (shipper)
+        //    ApiURL uRL = ApiURL.GetInstance();
+        //    var rs = await client.GetAsync(uRL.GetApiFoodDetail(food.id)); // lấy data từ api về
+        //    if (rs.StatusCode == HttpStatusCode.OK)
+        //    {
+        //        string rsContent = await rs.Content.ReadAsStringAsync();// chuyeenr dữ liệu thành 1 string
+        //                                                                // timf cách convert string ở trên thành 1 object Categories
+        //        FoodList detail = JsonConvert.DeserializeObject<FoodList>(rsContent);
+        //        return detail;
+        //    }
+        //    return null;
+        //}
         public async Task<todaySpecial> GetTodaySpecial()
         {
             HttpClient client = new HttpClient();// lo việc kết nối api và lấy dữ liệu về (shipper)

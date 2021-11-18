@@ -20,24 +20,24 @@ namespace Fried_Chicken.Pages
         {
             this.InitializeComponent();
         }
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            base.OnNavigatedTo(e);
-            Food food = e.Parameter as Food;
-            // Da co category -> lay api du lieu ve
-            RenderFoodDetail(food);
-        }
+        //protected override void OnNavigatedTo(NavigationEventArgs e)
+        //{
+        //    base.OnNavigatedTo(e);
+        //    Food food = e.Parameter as Food;
+        //    // Da co category -> lay api du lieu ve
+        //    RenderFoodDetail(food);
+        //}
 
-        private async void RenderFoodDetail(Food food)
-        {
-            ApiService service = new ApiService();
-            FoodList fooddetail = await service.FoodDetail(food);
-            if (fooddetail != null)
-            {
-                var f = fooddetail.data;
-                    Products.Items.Add(f);
-                
-            }
-        }
+        //private async void RenderFoodDetail(Food food)
+        //{
+        //    ApiService service = new ApiService();
+        //    FoodList fooddetail = await service.FoodDetail(food);
+        //    if (fooddetail != null)
+        //    {
+        //        var f = fooddetail.data;
+        //            Products.Items.Add(f);
+        //        
+        //    }
+        //}
     }
 }

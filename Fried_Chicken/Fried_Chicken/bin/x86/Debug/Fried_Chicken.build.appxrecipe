@@ -127,6 +127,9 @@
     <AppxPackagedFile Include="D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Fried_Chicken.xr.xml">
       <PackagePath>Fried_Chicken.xr.xml</PackagePath>
     </AppxPackagedFile>
