@@ -34,24 +34,11 @@ namespace Fried_Chicken
             Menu.Items.Add(item5);
             Menu.Items.Add(item6);
             Menu.Items.Add(item7);
-            RenderCategoriesToMenu();
+
         }
         private void IconClick_Tapped(object sender, TappedRoutedEventArgs e)
         {
             SP.IsPaneOpen = !SP.IsPaneOpen;
-        }
-        public async void RenderCategoriesToMenu()
-        {
-            // chi viec goi object cuar ApiService vao dung
-            ApiService apiService = new ApiService();
-            Categories categories = await apiService.GetCategories();
-            if (categories != null)
-            {
-                foreach (var c in categories.data)
-                {
-                    Menu.Items.Add(new MenuItem() { Name = c.name, Icon = new BitmapImage(new Uri("ms-appx:///Assets/icons8-windows-client-96.png")), MenuPage = "category", Category = c });
-                }
-            }
         }
         private void ListViewItem_Tapped(object sender, TappedRoutedEventArgs e)
         {
@@ -65,7 +52,7 @@ namespace Fried_Chicken
                 case "take-away": MainFrame.Navigate(typeof(Pages.Take_Away)); break;
                 case "payment": MainFrame.Navigate(typeof(Pages.Payment)); break;
                 case "customers": MainFrame.Navigate(typeof(Pages.Customers)); break;
-                case "category": MainFrame.Navigate(typeof(Pages.Categories), selected.Category); break;
+               
             }
         }
     }

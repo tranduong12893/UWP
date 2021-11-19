@@ -126,9 +126,6 @@
     <Compile Include="Models\Entity\DTO.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\Product.cs" />
-    <Compile Include="Pages\Categories.xaml.cs">
-      <DependentUpon>Categories.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Pages\Collection.xaml.cs">
       <DependentUpon>Collection.xaml</DependentUpon>
     </Compile>
@@ -166,8 +163,11 @@
     <Content Include="Assets\burger1.jpg" />
     <Content Include="Assets\cake.jpg" />
     <Content Include="Assets\delivery.png" />
+    <Content Include="Assets\dessert.jpg" />
     <Content Include="Assets\download.png" />
+    <Content Include="Assets\drinks.jpg" />
     <Content Include="Assets\facebook-icon-2.png" />
+    <Content Include="Assets\friedchicken.jpg" />
     <Content Include="Assets\icons8-list-128.png" />
     <Content Include="Assets\icons8-windows-client-96.png" />
     <Content Include="Assets\images.png" />
@@ -182,6 +182,7 @@
     <Content Include="Assets\pizza-slice.png" />
     <Content Include="Assets\pizza.jpg" />
     <Content Include="Assets\question.png" />
+    <Content Include="Assets\rice.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -200,10 +201,6 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Pages\Categories.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Collection.xaml">
       <SubType>Designer</SubType>
