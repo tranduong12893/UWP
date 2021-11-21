@@ -52,5 +52,14 @@ namespace Fried_Chicken.Pages
                 }
             }
         }
+
+        private void StackPanel_Tapped(object sender, Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
+        {
+            MenuItem selected = (MenuItem)Menu.SelectedItem;
+            switch (selected.MenuPage)
+            {
+                case "category": Main.Navigate(typeof(Pages.Catagory), selected.Category); break;
+            }
+        }
     }
 }

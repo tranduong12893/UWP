@@ -1,1 +1,1 @@
-D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\Fried_Chicken.csproj;x86
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\Fried_Chicken.csproj;x86

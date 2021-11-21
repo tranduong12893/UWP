@@ -62,17 +62,20 @@
         <GridView x:Name="Menu" Margin="50,100,50,0" RelativePanel.Below="IconClick" Grid.Row="1">
             <GridView.ItemTemplate >
                 <DataTemplate x:DataType="models:MenuItem">
-                    <StackPanel >
-                        <Grid >
-                            <Image Width="150" Height="100">
-                                <Image.Source>
-                                   <BitmapImage UriSource="{x:Bind Icon.UriSource}"/>
-                                </Image.Source>
-                            </Image>
-                        </Grid>
-                        <TextBlock Text="{x:Bind Name}" FontSize="25" HorizontalAlignment="Center" FontWeight="Bold" Margin="0, 10, 0 ,10"/>
-                        
-                    </StackPanel>
+                    <Frame x:Name="Main" >
+                        <StackPanel Tapped="StackPanel_Tapped">
+                            <Grid >
+                                <Image Width="150" Height="100">
+                                    <Image.Source>
+                                        <BitmapImage UriSource="{x:Bind Icon.UriSource}"/>
+                                    </Image.Source>
+                                </Image>
+                            </Grid>
+                            <TextBlock Text="{x:Bind Name}" FontSize="25" HorizontalAlignment="Center" FontWeight="Bold" Margin="0, 10, 0 ,10"/>
+
+                        </StackPanel>
+                    </Frame>
+                    
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>

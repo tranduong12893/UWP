@@ -235,11 +235,6 @@ D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\qualifiers.txt.inte
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\ProjectArchitectures.txt
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424563200000000.json
-D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Categories.g.i.cs
-D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Categories.g.cs
-D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Categories.xaml
-D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Categories.xbf
-D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Categories.xbf
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Newtonsoft.Json.dll
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\FoodDetail.g.i.cs
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\FoodDetail.g.cs
@@ -252,3 +247,8 @@ D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\FoodDetail.xa
 D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\FoodDetail.xbf
 D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\FoodDetail.xbf
 D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Newtonsoft.Json.dll
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Catagory.xbf
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.g.i.cs
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.g.cs
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.xaml
+D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.xbf
