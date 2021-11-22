@@ -8265,11 +8265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tran Duong\\source\\repos\\WFP-EXAM\\WFP-EXAM\\WFP-EXAM.csproj",
+      "projectUniqueName": "D:\\ky-3\\github\\UWP\\WFP-EXAM\\WFP-EXAM\\WFP-EXAM.csproj",
       "projectName": "WFP-EXAM",
-      "projectPath": "C:\\Users\\Tran Duong\\source\\repos\\WFP-EXAM\\WFP-EXAM\\WFP-EXAM.csproj",
+      "projectPath": "D:\\ky-3\\github\\UWP\\WFP-EXAM\\WFP-EXAM\\WFP-EXAM.csproj",
       "packagesPath": "C:\\Users\\Tran Duong\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tran Duong\\source\\repos\\WFP-EXAM\\WFP-EXAM\\obj\\",
+      "outputPath": "D:\\ky-3\\github\\UWP\\WFP-EXAM\\WFP-EXAM\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

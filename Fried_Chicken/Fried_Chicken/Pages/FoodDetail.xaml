@@ -66,17 +66,16 @@
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="0">
                 <StackPanel>
+                    <TextBlock Text="{x:Bind name }"/>
                     <TextBlock Text=""/>
-                    <TextBlock Text=""/>
-                    <TextBlock Text=""/>
-                    <TextBlock Text=""/>
-
+                    <TextBlock Text="{x:Bind description}"/>
+                    <TextBlock Text="{x:Bind price}"/>
                 </StackPanel>
             </Grid>
             <Grid Grid.Column="1">
                 <Image Grid.Column="1" Margin="5,10,5,0"  VerticalAlignment="Center" Height="150" Width="340" >
                     <Image.Source>
-                        <BitmapImage />
+                        <BitmapImage UriSource="{x:Bind Icon.UriSource}"/>
                     </Image.Source>
                 </Image>
             </Grid>

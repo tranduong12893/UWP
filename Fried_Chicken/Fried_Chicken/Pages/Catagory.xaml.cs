@@ -49,7 +49,11 @@ namespace Fried_Chicken.Pages
                 }
             }
         }
+        private void StackPanel_Tapped(object sender, Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
+        {
+            Food selected = (Food)Products.SelectedItem;
+            Frame.Navigate(typeof(Pages.Catagory), selected.id);
+        }  
 
-       
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rq08jg5TbkUORDmz2RQCVxK2QWocgmlP9MJQl6KLZn89s2XCgLVBESQDEJ8BO6QGAhBsR1EryBQHjACFw+PIcg==",
+  "dgSpecHash": "kY7Gcb32+uhiDllBaCq5LeasZ34nkz+2VDZNpQHxanEBBuyUNRyMkqk3KOQYT9beLGqMqLaikKpG7bRmxINYAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tran Duong\\source\\repos\\WFP-EXAM\\WFP-EXAM\\WFP-EXAM.csproj",
+  "projectFilePath": "D:\\ky-3\\github\\UWP\\WFP-EXAM\\WFP-EXAM\\WFP-EXAM.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\2.2.10-rel-29722-00\\microsoft.net.native.compiler.2.2.10-rel-29722-00.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.uwpcoreruntimesdk\\2.2.12\\microsoft.net.uwpcoreruntimesdk.2.2.12.nupkg.sha512",

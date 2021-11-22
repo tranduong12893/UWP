@@ -58,7 +58,7 @@
                 </Grid>
             </Grid>
         </Grid>
-        <GridView x:ConnectionId='2' x:Name="Products" Margin="10" Grid.Row="1">
+        <GridView x:ConnectionId='2' x:Name="Products" Margin="10" Grid.Row="1"                           >
             <GridView.ItemTemplate>
                 <DataTemplate                        >
                     <StackPanel x:ConnectionId='4' Height="350" Width="250" Background="#E2E2E2" >

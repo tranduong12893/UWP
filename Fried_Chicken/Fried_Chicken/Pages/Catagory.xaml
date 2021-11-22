@@ -58,7 +58,7 @@
                 </Grid>
             </Grid>
         </Grid>
-        <GridView x:Name="Products" Margin="10" Grid.Row="1">
+        <GridView x:Name="Products" Margin="10" Grid.Row="1" Tapped="StackPanel_Tapped">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="model:Food">
                     <StackPanel Height="350" Width="250" Background="#E2E2E2" >

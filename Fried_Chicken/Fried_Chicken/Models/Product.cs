@@ -17,4 +17,6 @@ namespace Fried_Chicken.Models
         public int ProPrice { set; get; }
     }
 
+
+
 }

@@ -126,6 +126,12 @@
     <Compile Include="Quest1\Employee.xaml.cs">
       <DependentUpon>Employee.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Quest2\Models\Account.cs" />
+    <Compile Include="Quest2\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Quest2\MicrosoftPassportHelper.cs" />
+    <Compile Include="Quest2\Utils\AccountHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -152,6 +158,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Quest1\Employee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Quest2\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

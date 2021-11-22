@@ -7,23 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    <ListView Margin="20,20,0,0" x:Name="emp" ItemsSource="{Binding}">
-        <ListView.Items>
-            <ListViewItem FontSize="25" FontWeight="Bold">Employee List</ListViewItem>
-        </ListView.Items>
-        <ListView.ItemTemplate>
+    <ComboBox x:Name="cbDevType" ItemsSource="{Binding}" 
+               HorizontalAlignment="Left" Height="47" Margin="493,33,0,0" 
+               VerticalAlignment="Top" Width="134" 
+               SelectionChanged="cbDevType_SelectionChanged" >
+        <ComboBox.ItemTemplate>
             <DataTemplate>
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
-                        <ColumnDefinition></ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Text="{Binding name}" FontSize="20" Margin="0,20,0,0"/>
-                    <TextBlock Text="{Binding role}" FontSize="20" Margin="0,20,0,0"/>
-                    <TextBlock Text="{Binding birthyear}" FontSize="20" Margin="0,20,0,0"/>
-                </Grid>
+                <StackPanel Orientation="Horizontal" Width="Auto" Height="Auto">
+                    <TextBlock Text="{Binding UsageName}" />
+                    <TextBlock Text="{Binding PageID}" Visibility="Collapsed"/>
+                    <TextBlock Text="{Binding UsageID}" Visibility="Collapsed" />
+                </StackPanel>
             </DataTemplate>
-        </ListView.ItemTemplate>
-    </ListView>
+        </ComboBox.ItemTemplate>
+    </ComboBox>
 </Page>

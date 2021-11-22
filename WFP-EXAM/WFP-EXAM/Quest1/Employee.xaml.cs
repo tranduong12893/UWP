@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -26,20 +28,37 @@ namespace WFP_EXAM.Quest1
         {
             this.InitializeComponent();
         }
-        private List<Employeess> employees;
 
-        public class Employeess
+        private List<HidDeviceClass> HidDeviceClasses;
+
+        public class HidDeviceClass
         {
-            public Employeess(string Name, ushort Role, ushort Birthyear)
+            public HidDeviceClass(string usageName, ushort pageID, ushort usageID)
             {
-                Name = name;
-                Role = role;
-                Birthyear = birthyear;
+                UsageName = usageName;
+                PageID = pageID;
+                UsageID = usageID;
             }
 
-            public string Name { get; set; }
-            public string Role { get; set; }
-            public int Birthyear { get; set; }
+            public string UsageName { get; set; }
+            public ushort PageID { get; set; }
+            public ushort UsageID { get; set; }
         }
+        private void GetUagePageInfo()
+        {
+            using (StreamReader file = File.OpenText(".\\usagepage.json"))
+            using (JsonTextReader reader = new JsonTextReader(file))
+            {
+                JObject jObject = (JObject)JToken.ReadFrom(reader);
+                var hidDeviceClasses =
+                    from p in jObject["hidDeviceClasses"]
+                    select new HidDeviceClass((string)p["UsageName"], (ushort)p["PageID"], (ushort)p["UsageID"]);
+                HidDeviceClasses = hidDeviceClasses.ToList<HidDeviceClass>();
+                cbDevType.DataContext = HidDeviceClasses;
+            }
+
+        }
+
     }
+
 }
