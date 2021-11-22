@@ -78,15 +78,15 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Foreground" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="FontWeight" />
       <RootProperty Name="FontFamily" />
+      <RootProperty Name="FontWeight" />
+      <RootProperty Name="MaxLines" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Width" />
       <RootProperty Name="LineStackingStrategy" />
-      <RootProperty Name="TextWrapping" />
-      <RootProperty Name="MaxLines" />
       <RootProperty Name="LineHeight" />
-      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.BindExtension" />
     <RootType FullName="Windows.UI.Xaml.Media.Imaging.BitmapImage">
@@ -99,26 +99,21 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
     <RootType FullName="Fried_Chicken.MainPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="Margin" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="ItemsPanel" />
+      <RootEvent Name="Tapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
-      <RootProperty Name="Children" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
-      <RootProperty Name="Margin" />
       <RootProperty Name="Background" />
+      <RootProperty Name="Children" />
     </RootType>
-    <RootType FullName="Fried_Chicken.Pages.Catagory" />
-    <RootType FullName="Fried_Chicken.Pages.Collection" />
-    <RootType FullName="Fried_Chicken.Pages.Customers" />
-    <RootType FullName="Fried_Chicken.Pages.Delivery" />
-    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
-      <RootProperty Name="Height" />
-    </RootType>
-    <RootType FullName="Fried_Chicken.Pages.Eat_In" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Content" />
       <RootProperty Name="Margin" />
@@ -126,6 +121,12 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Background" />
     </RootType>
+    <RootType FullName="Fried_Chicken.Pages.Catagory" />
+    <RootType FullName="Fried_Chicken.Pages.Collection" />
+    <RootType FullName="Fried_Chicken.Pages.Customers" />
+    <RootType FullName="Fried_Chicken.Pages.Delivery" />
+    <RootType FullName="Fried_Chicken.Pages.Eat_In" />
+    <RootType FullName="Fried_Chicken.Pages.FoodDetail" />
     <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
       <RootProperty Name="Template" />
     </RootType>
@@ -133,7 +134,6 @@
       <RootProperty Name="MaximumRowsOrColumns" />
       <RootProperty Name="Orientation" />
     </RootType>
-    <RootType FullName="Fried_Chicken.Pages.FoodDetail" />
     <RootType FullName="Fried_Chicken.Pages.Home" />
     <RootType FullName="Fried_Chicken.Pages.Payment" />
     <RootType FullName="Fried_Chicken.Pages.Take_Away" />

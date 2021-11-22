@@ -252,3 +252,8 @@ D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.g.i.
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.g.cs
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.xaml
 D:\hoc\GitHub\luoi\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.xbf
+D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.g.i.cs
+D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.g.cs
+D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.xaml
+D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\obj\x86\Debug\Pages\Catagory.xbf
+D:\ky-3\github\UWP\Fried_Chicken\Fried_Chicken\bin\x86\Debug\Pages\Catagory.xbf

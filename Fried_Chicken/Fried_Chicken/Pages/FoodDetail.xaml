@@ -4,6 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Fried_Chicken.Pages"
     xmlns:models="using:Fried_Chicken.Models" 
+    xmlns:model="using:Fried_Chicken.Models.Entity"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
@@ -22,10 +23,10 @@
             <Grid Grid.Row="0" Background="#AB0A34" Margin="0,-10,0,0" RenderTransformOrigin="0.499,-0.14"/>
             <Grid Margin="15,15,0,0" Grid.RowSpan="2">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="300"/>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="0.8*"/>
+                    <ColumnDefinition Width="250"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="200"/>
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0" Margin="50,0,0,0" Background="#AB0A34" Width="190">
                     <StackPanel>
@@ -57,37 +58,29 @@
                     <FontIcon Grid.Column="4" Glyph="&#xE7E8;" FontFamily="Segoe MDL2 Assets" VerticalAlignment="Top" Margin="0,30,10,0" HorizontalAlignment="Right" Foreground="#646464" FontSize="26" Width="30"/>
                 </Grid>
             </Grid>
-
         </Grid>
-        <GridView Grid.Row="1" x:Name="Products">
-            <GridView.ItemTemplate>
-                <DataTemplate x:DataType="models:Product">
-                    <StackPanel Height="350" Width="250" Margin="150,70,0,0" Background="#E2E2E2" >
-                        <TextBlock Text="{x:Bind ProName }" FontSize="30" Margin="15, 10, 0, 0" FontFamily="Arial" FontWeight="Bold"/>
-                        <Image Grid.Column="1" Margin="5,10,5,0"  VerticalAlignment="Center" Height="150" Width="340" >
-                            <Image.Source>
-                                <BitmapImage UriSource="{x:Bind ProImg}"/>
-                            </Image.Source>
-                        </Image>
-                        <TextBlock Text="{x:Bind ProDetail}" Margin="-10,10,5,0" Width="190" LineStackingStrategy="MaxHeight" TextWrapping="Wrap" MaxLines="2" LineHeight="10"/>
-                        <Grid Margin="5,15,5,0" VerticalAlignment="Bottom">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="2*"/>
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Grid.Column="0" Text="{x:Bind ProPrice}" Foreground="#1E26A2" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            <Button Content="Read More" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />
-                        </Grid>
-                    </StackPanel>
-                </DataTemplate>
-            </GridView.ItemTemplate>
-            <GridView.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <ItemsWrapGrid MaximumRowsOrColumns="10" Orientation="Horizontal"/>
-                </ItemsPanelTemplate>
-            </GridView.ItemsPanel>
-        </GridView>
+        <Grid Grid.Row="1" Margin="250,0,120,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <StackPanel>
+                    <TextBlock Text=""/>
+                    <TextBlock Text=""/>
+                    <TextBlock Text=""/>
+                    <TextBlock Text=""/>
 
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Image Grid.Column="1" Margin="5,10,5,0"  VerticalAlignment="Center" Height="150" Width="340" >
+                    <Image.Source>
+                        <BitmapImage />
+                    </Image.Source>
+                </Image>
+            </Grid>
+        </Grid>
     </Grid>
 
 </Page>

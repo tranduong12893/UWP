@@ -58,7 +58,7 @@ namespace Fried_Chicken.Pages
             MenuItem selected = (MenuItem)Menu.SelectedItem;
             switch (selected.MenuPage)
             {
-                case "category": Main.Navigate(typeof(Pages.Catagory), selected.Category); break;
+                case "category": this.Frame.Navigate(typeof(Pages.Catagory), selected.Category); break;
             }
         }
     }

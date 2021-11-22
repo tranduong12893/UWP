@@ -22,10 +22,10 @@
             <Grid Grid.Row="0" Background="#AB0A34" Margin="0,-10,0,0" RenderTransformOrigin="0.499,-0.14"/>
             <Grid Margin="15,15,0,0" Grid.RowSpan="2">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="300"/>
-                    <ColumnDefinition Width="1*"/>
-                    <ColumnDefinition Width="0.8*"/>
+                    <ColumnDefinition Width="250"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="200"/>
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0" Margin="50,0,0,0" Background="#AB0A34" Width="190">
                     <StackPanel>
@@ -71,8 +71,8 @@
                         <TextBlock Text="{x:Bind ProDetail}" Margin="-10,10,5,0" Width="190" LineStackingStrategy="MaxHeight" TextWrapping="Wrap" MaxLines="2" LineHeight="10"/>
                         <Grid Margin="5,15,5,0" VerticalAlignment="Bottom">
                             <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="1*"/>
-                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <TextBlock Grid.Column="0" Text="{x:Bind ProPrice}" Foreground="#1E26A2" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             <Button   Content="Mua" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />

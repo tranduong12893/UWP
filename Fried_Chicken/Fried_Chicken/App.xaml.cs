@@ -63,6 +63,7 @@ namespace Fried_Chicken
             }
         }
 
+
         /// <summary>
         /// Invoked when Navigation to a certain page fails
         /// </summary>
