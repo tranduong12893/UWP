@@ -59,27 +59,41 @@
                 </Grid>
             </Grid>
         </Grid>
-        <Grid Grid.Row="1" Margin="250,0,120,0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-            <Grid Grid.Column="0">
-                <StackPanel>
-                    <TextBlock Text="{x:Bind name }"/>
-                    <TextBlock Text=""/>
-                    <TextBlock Text="{x:Bind description}"/>
-                    <TextBlock Text="{x:Bind price}"/>
-                </StackPanel>
-            </Grid>
-            <Grid Grid.Column="1">
-                <Image Grid.Column="1" Margin="5,10,5,0"  VerticalAlignment="Center" Height="150" Width="340" >
-                    <Image.Source>
-                        <BitmapImage UriSource="{x:Bind Icon.UriSource}"/>
-                    </Image.Source>
-                </Image>
-            </Grid>
-        </Grid>
+        <GridView x:Name="Products" Margin="130,80,0,0" Grid.Row="1">
+            <GridView.ItemTemplate>
+                <DataTemplate x:DataType="model:Food">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Grid.Row="0">
+                            <StackPanel>
+                                <TextBlock Margin="0,0,0,0" FontWeight="Medium" Text="Only" FontSize="15" Foreground="#FFBF00" FontFamily="Verdana"/>
+                                <TextBlock Text="$" FontSize="100" Foreground="#FFBF00" FontFamily="Verdana" FontWeight="Bold"/>
+                                <TextBlock FontWeight="Bold" Text="{x:Bind price}" FontSize="100" Foreground="#FFBF00" FontFamily="Verdana"/>
+                                <TextBlock Text="{x:Bind name}" FontWeight="Medium" FontSize="26" Foreground="Black" FontFamily="Verdana" TextWrapping="Wrap"/>
+                                <TextBlock Margin="0,10,0,0" Text="With Onions and tomato and ketchup" FontSize="16" Foreground="Black" FontFamily="Verdana"/>
+                                <TextBlock  Text="Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore ef dolore magna aqulia. Ut enim ad minim veniam,quis nastrud exercitation ullamco" 
+                                           Margin="0,10,0,0" TextAlignment="Start" TextWrapping="Wrap" Foreground="Black" Grid.Row="0" Grid.Column="0" FontFamily="Verdana" LineStackingStrategy="MaxHeight"  MaxLines="5" LineHeight="10"/>
+                                <Button Margin="0,20,0,0" Content="Order Now" VerticalAlignment="Center" Width="350" Background="#bbae02" Foreground="White"/>
+
+                            </StackPanel>
+                        </Grid>
+                        <Grid Grid.Column="1" Grid.Row="0" Margin="50,0,0,0">
+                            <Image Width="450">
+                                <Image.Source>
+                                    <BitmapImage UriSource="{x:Bind image}"/>
+                                </Image.Source>
+                            </Image>
+                        </Grid>
+                    </Grid>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
     </Grid>
 
 </Page>

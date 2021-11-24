@@ -41,5 +41,9 @@ namespace Fried_Chicken.Adapters
         {
             return String.Format(baseURL + "/api/food/" + Convert.ToString(id));
         }
+        public string GetApiProduct(int id)
+        {
+            return String.Format(baseURL + "/api/food/" + Convert.ToString(id));
+        }
     }
 }

@@ -1,8 +1,9 @@
 ﻿<Page
-    x:Class="Fried_Chicken.Pages.Catagory"
+    x:Class="Fried_Chicken.Pages.FoodDetail"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Fried_Chicken.Pages"
+    xmlns:models="using:Fried_Chicken.Models" 
     xmlns:model="using:Fried_Chicken.Models.Entity"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -58,30 +59,42 @@
                 </Grid>
             </Grid>
         </Grid>
-        <GridView x:ConnectionId='2' x:Name="Products" Margin="10" Grid.Row="1" >
+        <GridView x:ConnectionId='2' x:Name="Products" Margin="130,80,0,0" Grid.Row="1">
             <GridView.ItemTemplate>
                 <DataTemplate                        >
-                    <StackPanel x:ConnectionId='4' Height="350" Width="250" Background="#E2E2E2" >
-                        <TextBlock x:ConnectionId='5'                       FontSize="20" Margin="15, 10, 0, 0" FontFamily="Arial" FontWeight="Bold" MaxLines="2" TextWrapping="Wrap" Height="50" HorizontalAlignment="Center"/>
-                        <Image Grid.Column="1" Margin="5,10,5,0"  VerticalAlignment="Center" Height="150" Width="340" >
-                            <Image.Source>
-                                <BitmapImage x:ConnectionId='8'                           />
-                            </Image.Source>
-                        </Image>
-                        
-                        <Grid Margin="5,15,5,0" VerticalAlignment="Bottom">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
-                            </Grid.ColumnDefinitions>
-                            <TextBlock x:ConnectionId='6' Grid.Column="0"                       Foreground="#1E26A2" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            <Button x:ConnectionId='7'                                          Content="Read More" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />
+                    <Grid x:ConnectionId='4'>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" Grid.Row="0">
+                            <StackPanel>
+                                <TextBlock Margin="0,0,0,0" FontWeight="Medium" Text="Only" FontSize="15" Foreground="#FFBF00" FontFamily="Verdana"/>
+                                <TextBlock Text="$" FontSize="100" Foreground="#FFBF00" FontFamily="Verdana" FontWeight="Bold"/>
+                                <TextBlock x:ConnectionId='6' FontWeight="Bold"                       FontSize="100" Foreground="#FFBF00" FontFamily="Verdana"/>
+                                <TextBlock x:ConnectionId='7'                      FontWeight="Medium" FontSize="26" Foreground="Black" FontFamily="Verdana" TextWrapping="Wrap"/>
+                                <TextBlock Margin="0,10,0,0" Text="With Onions and tomato and ketchup" FontSize="16" Foreground="Black" FontFamily="Verdana"/>
+                                <TextBlock  Text="Lorem ipsum dolor sit amet,consectetur adipisicing elit,sed do eiusmod tempor incididunt ut labore ef dolore magna aqulia. Ut enim ad minim veniam,quis nastrud exercitation ullamco" 
+                                           Margin="0,10,0,0" TextAlignment="Start" TextWrapping="Wrap" Foreground="Black" Grid.Row="0" Grid.Column="0" FontFamily="Verdana" LineStackingStrategy="MaxHeight"  MaxLines="5" LineHeight="10"/>
+                                <Button Margin="0,20,0,0" Content="Order Now" VerticalAlignment="Center" Width="350" Background="#bbae02" Foreground="White"/>
+
+                            </StackPanel>
                         </Grid>
-                    </StackPanel>
+                        <Grid Grid.Column="1" Grid.Row="0" Margin="50,0,0,0">
+                            <Image Width="450">
+                                <Image.Source>
+                                    <BitmapImage x:ConnectionId='5'                           />
+                                </Image.Source>
+                            </Image>
+                        </Grid>
+                    </Grid>
                 </DataTemplate>
             </GridView.ItemTemplate>
         </GridView>
-        
     </Grid>
+
 </Page>
 

@@ -25,6 +25,7 @@ namespace Fried_Chicken.Pages
     /// </summary>
     public sealed partial class Catagory : Page
     {
+        public static CategoryDetail categoryDetail;
         public Catagory()
         {
             this.InitializeComponent();
@@ -40,7 +41,7 @@ namespace Fried_Chicken.Pages
         private async void RenderFoods(Category category)
         {
             ApiService service = new ApiService();
-            CategoryDetail categoryDetail = await service.CategoryDetail(category);
+            categoryDetail = await service.CategoryDetail(category);
             if (categoryDetail != null)
             {
                 foreach (var f in categoryDetail.data.foods)
@@ -49,11 +50,21 @@ namespace Fried_Chicken.Pages
                 }
             }
         }
-        private void StackPanel_Tapped(object sender, Windows.UI.Xaml.Input.TappedRoutedEventArgs e)
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Food selected = (Food)Products.SelectedItem;
-            Frame.Navigate(typeof(Pages.Catagory), selected.id);
-        }  
+            
+            var id = ((Button)sender).Tag;
+
+            foreach (var c in categoryDetail.data.foods)
+            {
+                if ((int)id == (uint)c.id)
+                {
+                    Food a = c;
+                    Frame.Navigate(typeof(Pages.FoodDetail), a);
+                }
+            }
+        }
 
     }
 }

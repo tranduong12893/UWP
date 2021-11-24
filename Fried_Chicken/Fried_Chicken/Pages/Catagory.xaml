@@ -58,7 +58,7 @@
                 </Grid>
             </Grid>
         </Grid>
-        <GridView x:Name="Products" Margin="10" Grid.Row="1" Tapped="StackPanel_Tapped">
+        <GridView x:Name="Products" Margin="10" Grid.Row="1" >
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="model:Food">
                     <StackPanel Height="350" Width="250" Background="#E2E2E2" >
@@ -75,7 +75,7 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <TextBlock Grid.Column="0" Text="{x:Bind price}" Foreground="#1E26A2" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            <Button   Content="Mua" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />
+                            <Button   Tag="{x:Bind id}" Click="Button_Click" Content="Read More" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />
                         </Grid>
                     </StackPanel>
                 </DataTemplate>

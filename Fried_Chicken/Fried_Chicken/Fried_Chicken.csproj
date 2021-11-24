@@ -126,6 +126,7 @@
     <Compile Include="Models\Entity\DTO.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductDetails.cs" />
     <Compile Include="Pages\Catagory.xaml.cs">
       <DependentUpon>Catagory.xaml</DependentUpon>
     </Compile>

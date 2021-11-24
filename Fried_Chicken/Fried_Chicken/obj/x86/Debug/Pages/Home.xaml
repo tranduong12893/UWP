@@ -65,7 +65,7 @@
                         <TextBlock x:ConnectionId='5'                          FontSize="20" Margin="15, 10, 0, 0" FontFamily="Arial" FontWeight="Bold" MaxLines="2" TextWrapping="Wrap" Height="50" HorizontalAlignment="Center"/>
                         <Image Grid.Column="1" Margin="5,10,5,0"  VerticalAlignment="Center" Height="150" Width="340" >
                             <Image.Source>
-                                <BitmapImage x:ConnectionId='8'                            />
+                                <BitmapImage x:ConnectionId='9'                            />
                             </Image.Source>
                         </Image>
                         <TextBlock x:ConnectionId='6'                           Margin="-10,10,5,0" Width="190" LineStackingStrategy="MaxHeight" TextWrapping="Wrap" MaxLines="2" LineHeight="10"/>
@@ -75,7 +75,7 @@
                                 <ColumnDefinition Width="*"/>
                             </Grid.ColumnDefinitions>
                             <TextBlock x:ConnectionId='7' Grid.Column="0"                          Foreground="#1E26A2" FontSize="25" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                            <Button   Content="Mua" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />
+                            <Button x:ConnectionId='8'                                             Content="Read More" Grid.Column="1" Margin="0,0,5,0" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#E6E34C" />
                         </Grid>
                     </StackPanel>
                 </DataTemplate>

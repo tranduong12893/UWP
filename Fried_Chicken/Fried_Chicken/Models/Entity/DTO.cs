@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fried_Chicken.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,7 +29,7 @@ namespace Fried_Chicken.Models.Entity
             public string description { get; set; }
             public int price { get; set; }
         }
-
+            
         public class FoodsOfCategory
         {
             public Category category { get; set; }
@@ -50,4 +51,19 @@ namespace Fried_Chicken.Models.Entity
             public string message { get; set; }
             public Food data { get; set; }
         }
+    public class Fooddetail
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string image { get; set; }
+        public string description { get; set; }
+        public int price { get; set; }
+    }
+
+    public class Fooddetails
+    {
+        public string message { get; set; }
+        public Fooddetail data { get; set; }
+    }
+
 }

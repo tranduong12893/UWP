@@ -6,6 +6,7 @@ using Fried_Chicken.Services;
 using Fried_Chicken.Models.Entity;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Xaml;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -16,6 +17,8 @@ namespace Fried_Chicken.Pages
     /// </summary>
     public sealed partial class Home : Page
     {
+        public static todaySpecial todayspecial;
+
         public Home()
         {
             this.InitializeComponent(); 
@@ -26,36 +29,31 @@ namespace Fried_Chicken.Pages
         {
             // chi viec goi object cuar ApiService vao dung
             ApiService apiService = new ApiService();
-            todaySpecial food = await apiService.GetTodaySpecial();
-            if (food != null)
+            todayspecial = await apiService.GetTodaySpecial();
+            if (todayspecial != null)
             {
-                foreach (var c in food.data)
+                foreach (var c in todayspecial.data)
                 {
                     Products.Items.Add(new Product() { ProName = c.name, ProDetail = c.description, ProID = c.id, ProImg = c.image, ProPrice = c.price });
                 }
             }
         }
 
-        //protected override void OnNavigatedTo(NavigationEventArgs e)
-        //{
-        //    base.OnNavigatedTo(e);
-        //Food food = e.Parameter as Food;
-        // Da co category -> lay api du lieu ve
-        //RenderFoodDetail(food);
-        //}
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
 
-        //private async void RenderFoodDetail(Food food)
-        //{
-        //    ApiService service = new ApiService();
-        //    FoodList fooddetail = await service.FoodDetail(food);
-        //    if (fooddetail != null)
-        //    {
-        //        var f = fooddetail.data;
-        //        Products.Items.Add(f);
-        //
-        //}
-        //}
+            var id = ((Button)sender).Tag;
 
-        
+            foreach (var c in todayspecial.data)
+            {
+                if ((int)id == (uint)c.id)
+                {
+                    Food a = c;
+                    Frame.Navigate(typeof(Pages.FoodDetail), a);
+                }
+            }
         }
+
+
+    }
     }
